@@ -1,10 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,500');
 /*body section design starts here*/
 /*Global Framework*/
 
 a:hover{
   text-decoration: none;
-  color: rgba(40,189,147,1);
+  color: rgba(229,69,69,1);
   transition: all 0.3s ease-in;
 }
 a span{
@@ -16,7 +16,7 @@ a:hover span{
 }
 a{
   font-weight: 700;
-  color: rgba(0,189,147,1);
+  color: rgba(229,69,69,1);
   transition: all 0.3s ease-in;
 }
 .row-border{
@@ -26,10 +26,10 @@ a{
   border: 1px solid rgba(34, 175, 143, 1);
 }
 a:active, a:visited{
-  color: rgba(0,189,147,1);
+  color: rgba(229,69,69,1);
 }
 .green-btn{
-  background-color: rgba(40,189,147,1);
+  background-color: rgba(229,69,69,1);
   border-radius: 2px;
   color: rgba(255,255,255,1)!important;
   padding:12px 24px;
@@ -38,7 +38,7 @@ a:active, a:visited{
   font-weight: 700;
 }
 .green-btn:hover{
-  background-color: rgba(0,189,147,1);
+  background-color: rgba(229,69,69,1);
   border-radius: 2px;
   color: white;
   padding:12px 24px;
@@ -56,7 +56,7 @@ p{
 }
 
 body{
-  font-family: "proxima-nova",sans-serif;
+  font-family: 'Catamaran', sans-serif;
   background-color: rgb(255, 255, 255);
   text-rendering:auto;
   -webkit-font-smoothing:antialiased;
@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5{
 }
 .border-line{
   width: 72px;
-  border-bottom: 1px solid rgba(40,189,147,1);
+  border-bottom: 1px solid rgba(229,69,69,1);
   margin:30px auto 40px auto;
 }
 .center-block{
@@ -142,14 +142,14 @@ h1,h2,h3,h4,h5{
   border: none;
 }
 .navbar-default .navbar-nav > li > a{
-  color:rgba(255,255,255,1);
+  color:rgba(72,72,72,1);
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover {
-  color: rgba(255,255,255,.6) !important;
+  color: rgba(72,72,72,.6) !important;
   transition: all 0.3s ease-in;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color:rgba(255,255,255,1);
+    background-color:rgba(229,69,69,1);
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus,
@@ -170,10 +170,9 @@ h1,h2,h3,h4,h5{
 }
 .navbar-brand i{
   padding-right:2px;
-
 }
 .navbar-brand{
-  color: rgba(255,255,255,1)!important;
+  color: rgba(72,72,72,1)!important;
 
 }
 .navbar-brand img{
@@ -187,29 +186,30 @@ h1,h2,h3,h4,h5{
   transition: all 0.2s ease-in;
   border-radius:2px;
   color: rgba(255,255,255,1);
-  border: 1px solid rgba(255,255,255,1);
+  border: 1px solid rgba(229,69,69,1);
 
 }
 .sign-up-button:hover{
   border: 1px solid rgba(0,0,0,.0);
-  color: rgba(255,255,255,1) ;
   transition: all 0.2s ease-in;
-  background-color: rgba(40,189,147,1);
+  background-color: rgba(229,69,69,1);
+}
+.sign-up-button:hover a{
+  color: rgba(255,255,255,1);
 }
 header{
-  background-image: -webkit-linear-gradient(42deg, #089677 2%, #00BD7F 100%);
-  background-image: -o-linear-gradient(42deg, #089677 2%, #00BD7F 100%);
-  background-image: linear-gradient(132deg, #089677 2%, #00BD7F 100%);
+  background-color: rgba(255,255,255,1);
 }
 /*header video container design starts here*/
 .header-video-container{
-  padding:140px 0 60px 0;
+  padding:140px 0 20px 0;
   position: relative;
   overflow: hidden;
   display: flex;
-
 }
-
+.hero-image-row{
+  margin-top: 24px;
+}
 .jumbotron-container{
   display: flex;
   padding:16px 0;
@@ -217,17 +217,24 @@ header{
   align-self: center;
 }
 .hero-content .hero-head-text{
-  font-size: 3.5em;
+  font-size: 4em;
   line-height: 1.3em;
-  font-weight: 900;
-  color: rgba(255,255,255,1);
+  font-weight: 600;
+  color: rgba(72,72,72,1);
+}
+.hero-content .hero-head-text span{
+  color: rgba(229,69,69,1);
 }
 .input-get-start-btn{
+  padding:12px 36px;
   height: 58px;
   border-radius: 2px;
   align-items: center;
   color: white;
-  background-color: rgba(16,140,116,1);
+  background-image: -webkit-linear-gradient(54deg, #E54545 0%, #D01616 100%);
+  background-image: -o-linear-gradient(54deg, #E54545 0%, #D01616 100%);
+  background-image: linear-gradient(144deg, #E54545 0%, #D01616 100%);
+  box-shadow: 8px 8px 22px 0 rgba(0,0,0,0.24);
   transition: all 0.2s ease-in;
   box-shadow: 0 16px 18px 0 rgba(0,0,0,0.13), 0 4px 6px 0 rgba(0,0,0,0.16);
 
@@ -240,7 +247,7 @@ header{
 }
 .input-get-start-btn:hover,  .input-get-start-btn:focus {
   color: white;
-  background-color: rgba(0,170,140,1);
+  background-color: rgba(250, 91, 91, 1);
   transition: all 0.2s ease-in;
 }
 .form-control{
@@ -261,7 +268,6 @@ header{
 }
 .jumbotron-container p{
   margin-top: 12px;
-  color: rgba(255,255,255,1);
   font-weight: 400;
 }
 .hero-input-info-text{
@@ -269,6 +275,18 @@ header{
   color: rgba(250,250,250,1);
 }
 
+/*Header Modal Video*/
+#intro-modal-video{
+  background-color: transparent;
+}
+.modal-video-full-screen .modal-content{
+  border: none;
+  background-color: transparent;
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+   -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+   -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+   box-shadow: 0 5px 15px rgba(0,0,0,0);
+}
   /*###Hero Logo Container Designs Here###*/
 .hero-logo-container{
   background-color: rgba(245,245,245,1);
@@ -305,8 +323,12 @@ header{
 
 /*****#######Stats Container Style######*******/
 .stats-container{
-  background-color: rgba(3, 173, 136, 1);
+  background-color: rgba(229, 69, 69, 1);
   text-align: center;
+  padding: 80px 40px;
+}
+.stats-column{
+  padding:12px 0;
 }
 .stats-container h2{
   color: rgba(255,255,255,1);
@@ -321,29 +343,14 @@ header{
   font-weight: 400;
   font-size: 1.2em;
 }
-.stats-column-1{
-  background-color: rgba(3, 173, 136, 1);
-  padding: 30px 30px;
-}
-.stats-column-2{
-  background-color: rgba(8, 156, 123, 1);
-  padding: 30px 30px;
-}
-.stats-column-3{
-  background-color: rgba(3, 173, 136, 1);
-  padding: 30px  30px;
-}
 /*****#######Benefits Section Container Style######*******/
 .benefits-container{
-  margin-top: 48px;
+  margin-top: 148px;
 }
 .benefits-content-row{
-  padding:56px 0;
+  padding-bottom: 64px;
   display: flex;
   align-items: center;
-}
-.benefits-transactional-row{
-  border-top: 1px solid rgba(85,85,85,0.2);
 }
 .benefits-column-content h2{
   font-weight: 500;
@@ -362,7 +369,7 @@ header{
 }
 .carousel-control.left, .carousel-control.right {
     text-shadow: none;
-    color: rgba(40,189,147,1)!important;
+    color: rgba(229,69,69,1)!important;
 }
 /* Previous button  */
 .media-carousel .carousel-control.left
@@ -398,10 +405,10 @@ header{
 /* End carousel */
 /*Carousel Ends here*/
 .testimonial-container{
-  background-color: rgba(248,248,248,1);
+  background-color: rgba(255,255,255,1);
 }
 .testimonial-main-content{
-  margin-top: 6px;
+  margin-top: 60px;
   position: relative;
   background-color: rgba(252,252,252,1);
   border-radius: 3px;
@@ -410,7 +417,7 @@ header{
 box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
 }
 .quote{
-  color: rgba(40,189,147,.3);
+  color: rgba(54,54,54,.3);
 }
 .quote-left i{
   margin-top: 24px;
@@ -449,7 +456,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
   margin-bottom: 48px;
 }
 .client-details h3{
-  color: rgba(47,189,147,1);
+  color: rgba(229,69,69,1);
   font-weight: 600;
 }
 .client-details p{
@@ -474,34 +481,9 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
   margin: 24px 0;
 }
 
-/*****#####Get Support Container Style******######*/
-.get-support-container{
-  margin-top: 24px;
-}
-.get-support-container p{
-
-}
-.get-support-btn{
-  background-color: rgba(40,189,147,1);
-  border-radius: 2px;
-  color: white;
-  padding:12px 24px;
-  transition: all 0.2s ease-in;
-  margin-top: 12px;
-}
-.get-support-btn:hover{
-  background-color: rgba(0,189,147,1);
-  border-radius: 2px;
-  color: white;
-  padding:12px 24px;
-  transition: all 0.2s ease-in;
-}
-.get-support-image-column{
-  margin-top:48px;
-}
 /*******Final Call to Action Style Here************/
 .final-call-to-action-fluid-container{
-  background-color: rgba(0, 189, 147, 1);
+  background-color: rgba(54, 54, 54, 1);
   padding: 48px 0;
 }
 .final-call-to-action-fluid-container h2{
@@ -509,9 +491,6 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 }
 .final-call-to-action-fluid-container p{
   color: rgba(255,255,255,1);
-}
-.final-call-to-action-fluid-container .btn{
-  background-color: rgba(33, 167, 129, 1);
 }
 
 /***#############
@@ -821,6 +800,8 @@ Navbar Full Screen Test
 ********************************/
 /* FULL SCREEN MODAL STYLES
 -------------------------------------------------- */
+
+
 .fullscreen .modal-dialog {
  margin: 0 0 0 0;
  width: 100%;
@@ -833,8 +814,8 @@ Navbar Full Screen Test
   background-color: transparent;
 }
 .modal-backdrop {
-   background-color: rgba(250,250,250,1);
-   opacity: .95!important;
+   background-color: rgba(255,255,255,1);
+   opacity: .96!important;
 }
 .fullscreen .modal-content{
   border: none;
@@ -853,17 +834,17 @@ Navbar Full Screen Test
  min-height: 100%;
  border-radius: 0;
  color: rgba(255,255,255,1);
- background: rgba(0, 189, 147, 0.97);
+ background: rgba(250, 250, 250, 0.97);
  overflow: auto;
 }
 
 .fullscreen .modal-body a {
- color: rgba(255,255,255,1);
+ color: rgba(72,72,72,1);
  font-size: 1.2em;
 }
 .fullscreen .modal-body a:hover {
  background-color: transparent;
- color: rgba(255,255,255,.7);
+ color: rgba(72,72,72,.7);
 }
 @media (max-width: 763px){
  .fullscreen .modal-body ul {
@@ -896,7 +877,7 @@ Navbar BG Appear, When Scroll Down
 }
 
 .show {
-  background: rgba(0,189,147,.98);
+  background: rgba(255, 255, 255, 0.98);
   -webkit-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
 -moz-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
 box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
