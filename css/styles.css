@@ -415,7 +415,6 @@ header{
   background-color: rgba(255,255,255,1);
 }
 .testimonial-main-content{
-  min-height: 470px;
   margin-top: 60px;
   position: relative;
   background-color: rgba(252,252,252,1);
@@ -495,13 +494,10 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
   padding: 160px 0;
   transition: all 0.4s ease-in;
   width: 100%;
-  margin-top: 0px;
 }
 .final-call-to-action-fluid-container:hover{
-  background-color: rgba(214, 51, 51, 1);
+  background-color: rgba(205, 46, 46, 1);
   transition: all 0.4s ease-out;
-  width: 98%;
-  margin-top: 12px;
 }
 .final-call-to-action-fluid-container h2,h1{
   color: rgba(255,255,255,1);
@@ -589,6 +585,9 @@ box-shadow:         0px 0px 5px 0px rgba(0,0,0,0.1);
   font-weight: bold;
   color: rgba(105,105,105,1);
 }
+.footer-brand img{
+  height: 48px;
+}
 .footer-link{
   margin-top: 24px;
 }
@@ -598,19 +597,18 @@ box-shadow:         0px 0px 5px 0px rgba(0,0,0,0.1);
 .footer-link a:hover{
   text-decoration: none;
 }
-.footer-copyright-link{
-  margin-right: 24px;
-}
 .footer-copyright-row{
-  padding: 24px 0 ;
+  padding:32px 0;
 }
 .footer-copyright-row p{
-  color: rgba(105,105,105,1);
-  font-size: 0.9em;
+  margin-top: 32px;
 }
 .footer-copyright-row a{
   color: rgba(105,105,105,1);
-  font-size: 0.9em;
+  font-size: 1.3em;
+}
+.footer-copyright-link:hover{
+  color: rgba(229, 69, 69, 1);
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++
