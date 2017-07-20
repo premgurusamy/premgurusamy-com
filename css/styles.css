@@ -612,69 +612,11 @@ box-shadow:         0px 0px 5px 0px rgba(0,0,0,0.1);
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++
-              Pricing Page
+              about me Page
 ++++++++++++++++++++++++++++++++++++++++++*/
-.inner-page-header-container{
-  padding-top: 164px;
-  padding-bottom: 180px;
-}
-.inner-page-header-container p{
-  color: rgba(255,255,255,1);
-}
-/*table */
-.table-bordered > tbody > tr > td {
-  padding:18px 12px;
-  font-weight: 600;
-  color: rgba(100,100,100,1);
-  border: 1px solid rgba(40,189,147,.3);
-}
-.table-bordered > tbody > tr > td > span {
-  color: rgba(0,189,147,1);
-  font-style: italic;
-  border-bottom: 1px dashed rgba(0,189,147,1);
-}
-.table-bordered > tbody > tr > .table-price {
-  font-weight: 900;
-  font-size: 1.1em;
-}
-.table-bordered > thead > tr > th{
-  color: rgba(255,255,255,1);
-  font-weight: 900;
-  font-size: 1.4em;
-  padding:36px 12px;
-  background-color: rgba(40,189,147,1);
-  border: 1px solid rgba(35, 166, 129, 1);
-}
-.table-bordered > tbody > tr{
-  transition: all 0.2s ease-in;
-}
-.table-bordered > tbody > tr:hover{
-  background-color: rgba(213, 255, 244, 1);
-  transition: all 0.2s ease-in;
-  -webkit-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
--moz-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
-}
-.pricing-table table{
-  border: none;
-  margin-top: -116px;
-  -webkit-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
--moz-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
-box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
-}
-/*====================
-FAQs
-*/
-.pricing-faq-container{
-  margin-top: 64px;
-  margin-bottom: 64px;
-}
-.price-question-column{
-  margin-top: 32px;
-}
-.price-question-column h4{
-  font-weight: 600;
-  color: rgba(82,82,82,1);
+.about-me-construction-container{
+  padding-top: 160px;
+  padding-bottom: 120px;
 }
 /*+++++++++++++++++++++++++++++++
         Resources Page
