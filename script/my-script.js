@@ -68,6 +68,20 @@ $(document).ready(function() {
   });
 });
 
+/*====================
+  Testimonial Slick
+++++++++++++++++++++++++*/
+$('.testimonial-slide').slick({
+  pauseOnHover: false,
+  pauseOnFocus:false,
+  mobileFirst:true,
+  draggable: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  fade: true,
+  autoplaySpeed: 8000,
+});
 /*===================
 FAQ's
 ++++++++++++++++++*/
