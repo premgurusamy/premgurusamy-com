@@ -199,4 +199,15 @@ $(window).resize(function() {
 
 
 
-/**/
+/************************
+Works Page
+*********************/
+var $video = $('.preview-video');
+
+$video.on('mouseover focus', function () {
+  $(this).get(0).play();
+});
+
+$video.on('mouseout blur', function () {
+  $(this).get(0).pause();
+});
