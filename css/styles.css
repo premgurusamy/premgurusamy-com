@@ -644,8 +644,26 @@ top: -10px;
 /****************************
       Works Inner Page
 *****************************/
+.detangled-header{
+  min-height: 320px;
+}
+.project-details-container{
+  padding:32px 0;
+  box-shadow: -0px 0 2px 0 rgba(0,0,0,0.24);
+  border: 1px solid rgba(100,100,100,.2);
+}
 .video-full-screen{
-  padding:72px 0px 0px 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.project-info-details{
+  color: rgba(100,100,100,1);
+  padding:6px 0;
+}
+.project-info-header-border{
+  margin-bottom: 32px;
+  width: 32px;
+  border-bottom: 2px solid rgba(229,69,69,1);
 }
 /*++++++++++++++++++++++++++++
       Contact Page
