@@ -667,13 +667,24 @@ top: -10px;
 }
 /**Experiments*/
 .experiments-images-container{
-  margin-top: 72px;
+  margin-top: 60px;
 }
 .experiments-content-column{
   margin-bottom: 54px;
 }
 .experiments-info-header{
   padding-top: 12px;
+  margin-bottom: 24px;
+}
+/***Freebies****/
+.freebies-download-btn{
+  border:1px solid rgba(229,69,69,1);
+  padding:6px 12px;
+  margin-right: 12px;
+}
+.freebies-download-btn:hover{
+  background-color:rgba(229,69,69,1);
+  color:rgba(255,255,255,1);
 }
 /*++++++++++++++++++++++++++++
       Contact Page
