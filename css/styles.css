@@ -209,7 +209,7 @@ header{
 }
 /*header video container design starts here*/
 .header-video-container{
-  padding:140px 0 20px 0;
+  padding:80px 0 20px 0;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -442,14 +442,13 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 
 /*******Final Call to Action Style Here************/
 .final-call-to-action-fluid-container{
-  background-color: rgba(229, 69, 69, 1);
-  padding: 160px 0;
-  transition: all 0.4s ease-in;
+  background-color: rgba(229,69,69,1);
+  padding:80px 0;
   width: 100%;
 }
-.final-call-to-action-fluid-container:hover{
-  background-color: rgba(205, 46, 46, 1);
-  transition: all 0.4s ease-out;
+
+.final-call-to-action-fluid-container:visited, .final-call-to-action-fluid-container:active, .final-call-to-action-fluid-container:focus{
+  text-decoration: none;
 }
 .final-call-to-action-fluid-container h2,h1{
   color: rgba(255,255,255,1);
@@ -464,46 +463,14 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
   color: rgba(255,255,255,.7);
 }
 
-/***#############
-Faq's Landing Page
-#######*******/
-.landing-faq-container{
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-.landing-faq-container h3{
-  color: rgba(82,82,82,1);
-  font-size: 1.6em;
-}
-.question-answer-div{
-  margin-top:12px;
-  padding:12px 12px;
-   background-color:rgba(255,255,255,1);
--webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
--moz-box-shadow:    0px 0px 5px 0px rgba(0,0,0,0.1);
-box-shadow:         0px 0px 5px 0px rgba(0,0,0,0.1);
-}
-.question-answer-div i{
-  height: 16px;
-  width: 16px;
-}
-.question{
-  cursor: pointer;
-  color:rgba(120,120,120,1);
-  font-weight:500;
-  opacity:.9;
-}
-.question:hover{
-  opacity:1;
-}
-.answer{
-  color:rgba(100,100,100,1);
-  margin-top:12px;
-}
 
 /*****#######Footer Container Style Starts Here######*******/
 .footer-fluid-container{
   background-color: rgba(245,245,245,1);
+}
+.footer-column a{
+  padding-right:24px;
+  font-size:2em!important;
 }
 .footer-content-row{
   border-bottom: 1px solid rgba(150,150,150,1);
@@ -519,37 +486,20 @@ box-shadow:         0px 0px 5px 0px rgba(0,0,0,0.1);
 .footer-content-column h5{
   font-size: 1.1em;
 }
-.footer-content-row p{
-  font-size: 0.9em;
-  color: rgba(110,110,110,1);
-}
+
 .footer-logo{
   margin-bottom: 24px;
 }
-.badge-footer-hiring{
-  background-color: rgba(40,189,147,1);
-  margin-left: 4px;
-  color: white;
-  border-radius: 2px;
-  font-weight: 400;
-}
+
 .footer-social-link{
   margin-right: 24px;
   color: rgba(105,105,105,1);
 }
-.footer-link-header{
-  font-weight: bold;
-  color: rgba(105,105,105,1);
-}
+
 .footer-brand img{
   height: 48px;
 }
-.footer-link{
-  margin-top: 24px;
-}
-.footer-link a{
-  color: rgba(105,105,105,1);
-}
+
 .footer-link a:hover{
   text-decoration: none;
 }
@@ -579,10 +529,8 @@ box-shadow:         0px 0px 5px 0px rgba(0,0,0,0.1);
         Works Page
 ++++++++++++++++++++++++++++++++*/
 .works-container{
-  padding:72px 0;
-}
-.card-column{
-
+  padding-top:90px;
+  padding-bottom: 90px;
 }
 .card-details{
   background-color: rgba(255,255,255,1);
@@ -638,9 +586,7 @@ top: -10px;
 .preview-btn:focus, .preview-btn:visited{
   color: rgba(255,255,255,1);
 }
-.top-space-card{
-  margin-top: 224px;
-}
+
 /****************************
       Works Inner Page
 *****************************/
