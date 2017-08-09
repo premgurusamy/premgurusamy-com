@@ -487,18 +487,12 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
   font-size: 1.1em;
 }
 
-.footer-logo{
-  margin-bottom: 24px;
-}
 
 .footer-social-link{
   margin-right: 24px;
   color: rgba(105,105,105,1);
 }
 
-.footer-brand img{
-  height: 48px;
-}
 
 .footer-link a:hover{
   text-decoration: none;
@@ -530,20 +524,28 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 ++++++++++++++++++++++++++++++++*/
 .works-container{
   padding-top:90px;
-  padding-bottom: 90px;
+}
+.card-column{
+  -webkit-box-shadow: 0px 0px 73px -20px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 73px -20px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 73px -20px rgba(0,0,0,0.3);
+transition: all 0.2s ease-in;
 }
 .card-details{
   background-color: rgba(255,255,255,1);
   padding:32px 16px;
-  -webkit-box-shadow: -8px 10px 73px -20px rgba(0,0,0,0.3);
--moz-box-shadow: -8px 10px 73px -20px rgba(0,0,0,0.3);
-box-shadow: -8px 10px 73px -20px rgba(0,0,0,0.3);
+  position: relative;
+  top: -10px;
+}
+.card-column:hover{
+transition: all 0.2s ease-in;
+  -webkit-box-shadow: -0px 2px 73px -20px rgba(0,0,0,0.1);
+-moz-box-shadow: -0px 2px 73px -20px rgba(0,0,0,0.1);
+box-shadow: -0px 2px 73px -20px rgba(0,0,0,0.1);
 
-position: relative;
-top: -10px;
 }
 .preview-image{
-  overflow: hidden;
+  overflow:hidden;
 }
 .preview-image img{
   -moz-transition: all 1s;
