@@ -139,3 +139,15 @@ $video.on('mouseover focus', function () {
 $video.on('mouseout blur', function () {
   $(this).get(0).pause();
 });
+
+/****************************
+ 404 Page Animation
+ **********************/
+ var animation = bodymovin.loadAnimation({
+  container: document.getElementById('animation-404'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  //Copy your json link
+  path: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/668457/404-red.json'
+})

@@ -712,6 +712,21 @@ box-shadow: 1px 12px 32px -1px rgba(0,0,0,0.2);
   color: rgba(255,255,255,1);
 }
 
+/**************************
+        404 Page
+***************************/
+.container-404{
+  padding:160px 0 80px 0;
+}
+.go-home-container{
+  padding:0px 0 80px 0;
+}
+.container-404 h3{
+  font-weight:lighter;
+}
+#animation-404{
+  height:70px;
+}
 /*****#######Mobile Device Style######*******/
 @media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
   /*Index page*/
